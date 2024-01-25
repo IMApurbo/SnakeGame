@@ -18,16 +18,16 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Snake Game")
 
 # Load snake images
-head_image = pygame.image.load("/home/kali/Downloads/head.png")
+head_image = pygame.image.load("assets/head.png")
 head_image = pygame.transform.scale(head_image, (SNAKE_SIZE, SNAKE_SIZE))
 
-body_image = pygame.image.load("/home/kali/Downloads/snake.png")
+body_image = pygame.image.load("assets/snake.png")
 body_image = pygame.transform.scale(body_image, (SNAKE_SIZE, SNAKE_SIZE))
 
-tail_image = pygame.image.load("/home/kali/Downloads/tail.png")
+tail_image = pygame.image.load("assets/tail.png")
 tail_image = pygame.transform.scale(tail_image, (SNAKE_SIZE, SNAKE_SIZE))
 
-food_image = pygame.image.load("/home/kali/Downloads/abc.png")
+food_image = pygame.image.load("assets/food.png")
 food_image = pygame.transform.scale(food_image, (SNAKE_SIZE, SNAKE_SIZE))
 
 # Initialize clock
